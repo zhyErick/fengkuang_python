@@ -34,7 +34,8 @@ class Rectangle:
         if name == 'size':
             self.__dict__['width'] = 0
             self.__dict__['height'] = 0
-           
+
+
 rect = Rectangle(3, 4)
 print(rect.size)
 rect.size = 6, 8
